@@ -1,0 +1,156 @@
+@font-face {
+	font-family: Poppins;
+	src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('Poppins-Regular.ttf') format('truetype');
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.item2 li {
+		display: inline-block !important;
+		margin: 15px !important;
+	}
+}
+
+body {
+	font-family: 'Poppins', Fallback, sans-serif !important;
+}
+
+#yeyelogo {
+	width: 97vw;
+}
+
+a {
+	text-decoration: none !important;
+
+}
+
+.item1 {
+	grid-area: header;
+}
+
+.item2 {
+	grid-area: menu;
+}
+
+.item3 {
+	grid-area: main;
+	width: 50vw
+}
+
+.item3 img {
+	width: 45vw
+}
+
+.item4 {
+	grid-area: right;
+	width: 45vw
+}
+
+.item5 {
+	grid-area: footer;
+	background-color: #696260;
+	color: #ffffff;
+}
+
+#QR {
+	width: 10vw
+}
+
+#container {
+	display: grid;
+	grid-template-areas: 'header header header header header header'
+		'menu menu menu menu menu menu'
+		'main main main right right right'
+		'footer footer footer footer footer footer';
+	grid-gap: 10px;
+	padding: 10px;
+	background-color: #F9DED7;
+}
+
+#container div {
+
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+.item2 li {
+	display: inline-block;
+	margin: 0 10px;
+
+}
+
+.item2 a {
+	z-index: 2;
+	color: #fff;
+	background-color: #f8a799;
+	border-color: #f8a799;
+	padding: 1rem 1rem;
+	border-top-left-radius: 50px !important;
+	border-bottom-right-radius: 50px !important;
+}
+
+.item2 .active {
+	background-color: #b7cabe !important;
+	border-color: #b7cabe !important;
+	padding: 1rem 1rem !important;
+	border-top-left-radius: 50px !important;
+	border-bottom-right-radius: 50px !important;
+}
+
+.main .circulo {
+	text-align: center;
+	padding: 150px 20px;
+	margin: 40px 100px;
+	border-radius: 300px;
+	font-size: 30px;
+}
+
+.color1 {
+	background-color: #b0e0e8;
+}
+
+.color2 {
+	background-color: #f3beac;
+}
+
+.color3 {
+	background-color: #d3af93;
+}
+
+.circuloProducto {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.colorR1 {
+	background-color: #ffbbfc;
+}
+
+.colorR2 {
+	background-color: #5e9cf7;
+}
+
+.colorR3 {
+	background-color: #050505;
+}
+
+.colorR4 {
+	background-color: #f77f43;
+}
+
+.colorR5 {
+	background-color: #146818;
+}
+
+.colorR6 {
+	background-color: #8c1111;
+}
